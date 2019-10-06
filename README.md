@@ -14,7 +14,7 @@ After running the game, the initial cards dealt are displayed for the player and
 The game does not include some rules of Blackjack such as revealing dealer cards, Aces counting as 1 or 11 points, betting, splitting, doubling, and surrendering. However, the modular nature of the code allows for smooth implementation and integration of these additional features.
 
 ### Design Choices
-The main data structure used for holding the deck of cards is an ArrayList. A library from [Princeton] (https://introcs.cs.princeton.edu/java/14array/Deck.java.html) was used to initialize and shuffle the deck of cards to maintain randomness. In order to prevent counting cards, the suit and rank of the cards dealt are not displayed. Instead, only the value of the respective card in Blackjack (1-11) is shown to the player.
+The main data structure used for holding the deck of cards is an ArrayList. A library from [Princeton](https://introcs.cs.princeton.edu/java/14array/Deck.java.html) was used to initialize and shuffle the deck of cards to maintain randomness. In order to prevent counting cards, the suit and rank of the cards dealt are not displayed. Instead, only the value of the respective card in Blackjack (1-11) is shown to the player.
 
 I decided to use Java to develop the game because Blackjack uses classic features of object-oriented programming such as classes, inheritance, and polymorphism, which can be easily implemented using Java.
 
